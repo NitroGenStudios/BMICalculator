@@ -1,0 +1,73 @@
+body
+{
+	color: white;
+	background-image: linear-gradient(to bottom right, rgb(48, 40, 61), rgb(122, 65, 47));
+	background-repeat: no-repeat;
+	height: 100vh;
+
+	text-shadow: rgba(255, 255, 255, 0.2) 0px 0px 10px;
+}
+
+.container
+{
+	margin-top: 20vh;
+	padding-top: 5vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+
+	max-width: 30vw;
+	min-height: 50vh;
+	max-height: 80vh;
+
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+
+h2
+{
+	text-align: center;
+}
+
+button
+{
+	width: 49%;
+}
+
+#clear
+{
+	float: right;
+}
+
+#bmi, #cat
+{
+	text-align: center;
+	margin: 0;
+}
+
+#bmi
+{
+	margin-top: 20px;
+}
+
+.btn, .form-control
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	border-width: 3px;
+}
+
+.form-control:focus
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.form-control::placeholder
+{
+	color: rgba(255, 255, 255, 0.2);
+}
+
+.btn:active
+{
+	text-shadow: rgba(255, 255, 255, 1.0) 0px 0px 4px;
+}
