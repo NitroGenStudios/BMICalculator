@@ -15,7 +15,8 @@ body
 	padding-left: 5vh;
 	padding-right: 5vh;
 
-	max-width: 30vw;
+	min-width: 400px;
+	max-width: 40vw;
 	min-height: 50vh;
 	max-height: 80vh;
 

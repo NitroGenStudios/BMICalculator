@@ -3,6 +3,17 @@ function calculate()
 	let kg = parseInt(document.getElementById("kg").value)
 	let cm = parseInt(document.getElementById("cm").value)
 
+	console.log(kg);
+	console.log(cm);
+
+	if (kg == 0 || cm == 0 || isNaN(kg) || isNaN(cm))
+	{
+		console.log("AAAAAAAAAAAAAAAAA");
+		document.getElementById("bmi").innerHTML = "Invalid data"
+		document.getElementById("cat").innerHTML = ""
+		return
+	}
+
 	let m = cm / 100.0
 
 	let bmi = kg / Math.pow(m, 2)
